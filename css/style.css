@@ -401,6 +401,8 @@ body.offcanvas {
     .colorlib-narrow-content {
       padding: 0; } }
 
+   
+
 .no-gutters {
   margin: 0;
   padding: 0; }
@@ -463,12 +465,22 @@ body.offcanvas {
   font-size: 18px;
   margin-bottom: 4em;
   font-weight: 700;
+  
   text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 1.8;
   position: relative; }
+
+
+
+
   .colorlib-heading span {
     display: block; }
+    @media screen and(min-width:320px) {
+      .colorlib-heading   {
+        display: block; 
+      padding-left: 300px;}
+    }
   @media screen and (max-width: 768px) {
     .colorlib-heading {
       margin-bottom: 3em; } }
@@ -481,6 +493,11 @@ body.offcanvas {
   color: #999999;
   font-weight: 500;
   letter-spacing: 5px; }
+  @media screen and(min-width:320px){
+    .colorlib-heading{
+      margin-left: 50px;
+    }
+  }
 
 .about-img {
   width: 100%;
@@ -492,6 +509,9 @@ body.offcanvas {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 500; }
+
+  .about-desc h2~p,ul li {
+   font-size: 20px;}
 
 .hire {
   padding: 2em;
@@ -876,7 +896,15 @@ body.offcanvas {
   float: left;
   margin-bottom: 40px;
   position: relative; }
-  .colorlib-feature .colorlib-icon {
+
+  @media screen and(min-width:912px){
+    .colorlib-feature i{
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+}
+  }
+  .colorlib-feature .colorlib-icon,.colorlib-icon-1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -889,6 +917,46 @@ body.offcanvas {
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     border-radius: 2px; }
+
+    .colorlib-feature .colorlib-icon-1 {
+        width: 400px;
+        margin-left: 60px;
+      }
+
+
+    @media(min-width:820px){
+    .colorlib-feature .colorlib-icon,.content-heading{
+    margin-left:300px;
+    }
+  }
+
+  
+  @media(min-width:820px){
+    .colorlib-feature .colorlib-icon,.content-heading{
+    margin-left:50px;
+    }
+  }
+  @media screen and(min-width:912px){
+    .colorlib-feature .colorlib-icon,.content-heading{
+    margin-left:290px;
+    }
+  }
+
+ 
+
+    @media(min-width:320px){
+      .colorlib-feature {
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        text-align: start;
+        font-size: 5px;
+        margin: 0px 3px;
+        padding-left: 30px;
+      }
+    }
+
+
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
@@ -896,8 +964,9 @@ body.offcanvas {
       font-size: 60px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
-        .colorlib-feature .colorlib-icon i {
+        .colorlib-feature .colorlib-icon  {
           font-size: 40px; } }
+
   .colorlib-feature .colorlib-text {
     padding-left: 120px;
     width: 100%; }
@@ -1054,12 +1123,22 @@ body.offcanvas {
       padding-top: 15px;
       font-style: italic;
     }
-      .project .desc h3 a, .project .desc h4 a {
-        color: #fff; 
+      .project .desc h3 , .project .desc h4 a {
+        color: black; 
+        font-weight: 500;
          display: flex;
          justify-content: center;
          align-items: center;
-         height:80px;
+         height:300px;
+   }
+   @media screen and(min-width:400px){
+    .project .desc h3{
+      color: red; 
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height:300px;
+    }
    }
     .project .desc span {
       display: block;
@@ -1083,12 +1162,13 @@ body.offcanvas {
           font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
-          color: #000; }
+          color:lightblue;
+        font-weight: bold; }
         .project .desc span {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); } }
   .project:hover .desc {
-    opacity: 1; }
+    opacity: 0.6; }
     .project:hover .desc h3 {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }
@@ -1562,4 +1642,9 @@ body.offcanvas {
   background: url(../images/portfoli.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media screen and(min-width:320px){
+  .content-heading{
+    margin-left: 30px;
+  }
 }
