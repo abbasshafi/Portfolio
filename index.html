@@ -56,6 +56,10 @@
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 
+	<style>
+
+	</style>
+
 </head>
 
 <body>
@@ -63,14 +67,14 @@
 		<div class="container-wrap">
 			<!-- Navbar Toggle Button -->
 			<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar"
-				aria-expanded="false" aria-controls="navbar"><i></i></a>
+				aria-expanded="false" aria-controls="navbar"><i ></i></a>
 
 			<!-- Left navbar -->
 			<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
 				<div class="text-center">
 					<div class="author-img" style="background-image: url(images/DSC_1658-1.JPG);"></div>
 					<h1 id="colorlib-logo"><a href="index.html">Abbas Shafi</a></h1>
-					<span class="position"><a href=""><b>Data scientist</b></a></span>
+					<span class="position"><a href=""><b>Machine Learning Engineer</b></a></span>
 				</div>
 				<!-- Navbar Items -->
 				<nav id="colorlib-main-menu" role="navigation" class="navbar">
@@ -79,7 +83,7 @@
 							<li class="active"><a href="#" data-nav-section="home">Home</a></li>
 							<li><a href="#" data-nav-section="about">About</a></li>
 							<li><a href="#" data-nav-section="skills">Skills</a></li>
-							<li><a href="#" data-nav-section="work">Passion Projects</a></li>
+							<li><a href="#" data-nav-section="work"> Projects</a></li>
 							
 							<!-- <li><a href="#" data-nav-section="experience">Experience</a></li> -->
 							<li><a href="#" data-nav-section="contact">Contact</a></li>
@@ -114,7 +118,7 @@
 											<div class="slider-text-inner js-fullheight">
 												<div class="desc">
 													<h1>Hi! I'm Abbas Shafi.</h1>
-													<h2>I am a <b>Data scientist</b></h2>
+													<h2>Machine Learning Engineer</b></h2>
 
 												</div>
 											</div>
@@ -130,30 +134,27 @@
 					<div class="colorlib-narrow-content">
 						<div class="row">
 							<div class="col-md-12">
-								<div class="row row-bottom-padded-sm animate-box"  data-animate-effect="fadeInLeft">
+								<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 									<div class="col-md-12">
 										<div class="about-desc">
 											<span class="heading-meta">About</span>
 											<h2 class="colorlib-heading">Who Am I?</h2>
 											<p><strong>Hi I'm Abbas Shafi,</strong>
 												<p>
-													I'm graduating in 2023 from The University of Agriculture Peshawar. I am an aspiring data scientist who enjoys connecting the dots. I have an academic background and technical skills in computer science, artificial intelligence, machine learning, and deep learning.
-												</p>
-												<p>
-													Throughout my career, I have always been driven by my passion for science and computer science on the one hand, and end-user satisfaction on the other. This helps me also to make sense of what we do and why we do it.
-												</p>
-												<p>
-													For that, I never stop learning every day, applying it in my daily work by sharing it with the people I work with.
-												</p>
-
-												<p>
-													I flourish my skills day by day and learned professionally under the roof of<br>
-													National Center for Big Data and Cloud -Computing (NCBC) UET Peshawar <br>
-													Government of Pakistan National Vocational & Technical Training Commission (NAVTTC) <br>  
-													Coursera
-													YouTube
+													As a machine learning engineer, I have always been fascinated by the possibilities of Artificial Intelligence. My passion for AI led me to pursue a Bachelor's degree in Computer Science, where I honed my skills in programming. I have spent countless hours studying the latest developments in machine learning and AI and I'm excited to put my knowledge to work in real-world projects.
 
 												</p>
+												<p>
+													I never stop learning every day and apply it in my daily work by sharing it with the people I work with. I have flourished my skills and learned professionally under the roof of :
+
+												</p>
+												
+												<ul>
+													<li>Government of Pakistan National Vocational & Technical Training Commission (NAVTTC)</li>
+													<li>Presidential Initiative for Artificial Intelligence and Computing (PIAIC)</li>
+													<li>Coursera</li>
+													<li>YouTube</li>
+												</ul>
 												
 											</p>
 										</div>
@@ -168,14 +169,14 @@
 									<div class="col-md-6  animate-box" data-animate-effect="fadeInRight">
 										<div>
 											<ul>
-												<li>Python (scikit-learn, NumPy, Pandas)</li>
+												<li>Python [Pandas/NumPy, Matplotlib, Seaborn]</li>
 											</ul>
 										</div>
 									</div>
 									<div class="col-md-6  animate-box" data-animate-effect="fadeInRight">
 										<div>
 											<ul>	
-												<li>Exploratory Data Analysis (Preprocessing, Data Wrangling ,Visualization)</li>
+												<li>Data Analysis [Preprocessing, Visualization]</li>
 											</ul>
 										</div>
 									</div>
@@ -184,7 +185,8 @@
 									<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 										<div>
 											<ul>
-												<li>Machine Learning (Supervised Learning, Unsupervised Learning)</li>	
+											<li>	Machine Learning [scikit-learn]</li>	
+											<li>Natural Language Processing [NLTK, Spacy]</li>
 											</ul>
 										</div>
 										
@@ -193,7 +195,17 @@
 										<div>
 											<ul>
 												
-												<li>Deep Learning (openCV, NLP,  Tensorflow)</li>
+												<li>Deep Learning [PyTorch, Tensorflow]</li>
+												
+											</ul>
+										</div>
+										
+									</div>
+									<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+										<div>
+											<ul>
+												
+												<li>Computer Vision</li>
 												
 											</ul>
 										</div>
@@ -216,6 +228,7 @@
 					</div>
 				</section>
 
+				
 				<section class="colorlib-work" data-section="work">
 					<div class="colorlib-narrow-content">
 						<div class="row">
@@ -243,56 +256,60 @@
 								</div>
 							</div>
 
-							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft" id="projectCloudixia">
+							<a href="https://github.com/abbasshafi/Projects/tree/main/Image%20Processing%20using%20Machine%20Learning"><div class="col-md-6 animate-box" data-animate-effect="fadeInLeft" id="projectCloudixia">
 								<div class="project"
 									style="background-image: url(images/projects/imageprocessing.png);">
-									<a href="https://github.com/abbasshafi/Projects/tree/main/Image%20Processing%20using%20Machine%20Learning">	<div class="desc">
+									<div class="desc">
 										<div class="con">
-											<h3 class="">Image Processing using Machine Learning</h3>
+											<h3 class=""><a href="">Image Processing using Machine Learning</a></h3>
 											
 										</div>
-									</div></a>
+									</div>
 								</div>
 							</div></a>
 
-							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft" id="projectCloudixia">
+							<a href="https://github.com/abbasshafi/Projects/tree/main/Naive%20Bayes%20variants%20on%20Iris%20Flower"><div class="col-md-6 animate-box" data-animate-effect="fadeInLeft" id="projectCloudixia">
 								<div class="project"
 									style="background-image: url(images/projects/Thumbnail.png);">
-									<a href="https://github.com/abbasshafi/Projects/tree/main/Image%20Processing%20using%20Machine%20Learning">	<div class="desc">
+									<div class="desc">
 										<div class="con">
-											<h3 class="">Uber Rides Prediction</h3>
+											<h3 class=""><a href="https://github.com/abbasshafi/Projects/tree/main/Naive%20Bayes%20variants%20on%20Iris%20Flower">Naive Bayes variants on Iris Flower
+</a></h3>
 											
 										</div>
-									</div></a>
+									</div>
 								</div>
-							</div>
+							</div></a>
 
-							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft" id="projectCloudixia">
+							<a href="https://github.com/abbasshafi/Projects/tree/main/Uber%20Rides%20Prediction"><div class="col-md-6 animate-box" data-animate-effect="fadeInLeft" id="projectCloudixia">
 								<div class="project"
 									style="background-image: url(images/projects/uber.jpg);">
-									<a href="https://github.com/abbasshafi/Projects/tree/main/Image%20Processing%20using%20Machine%20Learning">	<div class="desc">
+									<div class="desc">
 										<div class="con">
-											<h3 class="">Uber Rides Prediction</h3>
+											<h3 class=""><a href="https://github.com/abbasshafi/Projects/tree/main/Uber%20Rides%20Prediction">Uber Rides Prediction</a></h3>
 											
 										</div>
-									</div></a>
+									</div>
 								</div>
-							</div>
+							</div></a>
 							
-							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft" id="projectCloudixia">
+							<a href="https://github.com/abbasshafi/Projects/tree/main/Clustering%20on%20Iris%20dataset"><div class="col-md-6 animate-box" data-animate-effect="fadeInLeft" id="projectCloudixia">
 								<div class="project"
 									style="background-image: url(images/projects/Thumbnail\ 3.png);">
-									<a href="https://github.com/abbasshafi/Projects/tree/main/Image%20Processing%20using%20Machine%20Learning">	<div class="desc">
+									<div class="desc">
 										<div class="con">
-											<h3 class="">Clustering Techniques on Iris Flower</h3>
+											<h3 class=""><a href="https://github.com/abbasshafi/Projects/tree/main/Clustering%20on%20Iris%20dataset">Clustering Techniques on Iris Flower</a></h3>
 											
 										</div>
-									</div></a>
+									</div>
 								</div>
 							</div></a>
 							
 
 						</section>
+
+
+
 						</div>
 						</div>
 						<!-- <div class="row">
@@ -762,99 +779,42 @@
 				<section class="colorlib-contact" data-section="contact" style="padding-bottom: 20em;">
 					<div class="colorlib-narrow-content">
 						<div class="row">
-							<div class="col-md-6 col-md-offset-3   animate-box" data-animate-effect="fadeInLeft">
-								<span class="heading-meta content-heading">Get in Touch</span>
-								<h2 class="colorlib-heading content-heading" >Contact</h2>
+							<div class="col-md-6   col-xl-offset-3 col-lg-offset-3 col-md-offset-4    animate-box" data-animate-effect="fadeInLeft">
+								<span class="heading-meta">Get in Touch</span>
+								<h2 class="colorlib-heading">Contact</h2>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-md-5 col-sm-12 col-md-offset-3" style="display: flex;">
-								
+							<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12  col-xl-offset-3 col-lg-offset-3 col-md-offset-1 col-sm-offset-0     " >
+								<div class="colorlib-feature colorlib-feature-sm animate-box " data-animate-effect="fadeInLeft">
+									<div class="colorlib-icon mb-5" style="display: flex;">
+										<a href="" target="blank"><i class="fas fa-envelope"></i></a>
+										<a href="abbasshafi.2000@gmail.com">abbasshafi.2000@gmail.com</a>
+										</div>
 
-								<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-									<div class="colorlib-icon">
-										<a href="https://www.linkedin.com/in/abbasshafi/" target="blank">
-											<i class="fab fa-linkedin"></i></a>
-									</div>
-									
 								</div>
-
-								<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-									<div class="colorlib-icon">
-										<a href="https://github.com/abbasshafi" target="blank"><i class="fab fa-github"></i></a>
-									</div>
-								</div>
-
-								<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-									<div class="colorlib-icon">
-										<a href="https://www.kaggle.com/abbasshafi" target="blank"><i class="fab fa-kaggle"></i></a>
-									</div>
-									<div class="colorlib-icon">
-										<a href="https://www.kaggle.com/abbasshafi" target="blank"><i class="fab fa-kaggle"></i></a>
-									</div>
-								</div>
-
 							</div>
 							
-						</div>
+							<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xl-offset-1 col-lg-offset-1 col-md-offset-1 col-sm-offset-0 " >
+								<div class="colorlib-feature content-box colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="colorlib-icon " style="display: flex;">
+										<a href="#" target="blank"><i class="fab fa-whatsapp"></i></a>
+										
+										<a href="#" style="font-size: 15px;"><b>+92316-9743632</b></a>
+										</div>
 
+								</div>
+							</div>
+						</div>
 					</div>
-					
 				</section>
-				<section class="colorlib-contact" data-section="contact" style="padding-bottom: 20em;">
-					<div class="colorlib-narrow-content">
+
 						
-						<div class="row" style="display: flex;justify-content:space-around">
-							<div class="col-md-5 col-sm-12 col-md-offset-3" style="display: flex;">
-								
-
-								<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-									<div class="colorlib-icon colorlib-icon-1" >
-										<a href="https://www.linkedin.com/in/abbasshafi/" target="blank">
-											<i class="fab fa-linkedin"></i></a>
-											<a href="https://www.linkedin.com/in/abbasshafi/" target="blank">
-												<i class="" style="font-size: 11px;">03348701767</i></a>
-									</div>
-									
-								</div>
-
-								
-
-							</div>
-							<div class="col-md-5 col-sm-12 " style="display: flex;">
-								
-
-								<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-									<div class="colorlib-icon colorlib-icon-1" >
-										<a href="https://www.linkedin.com/in/abbasshafi/" target="blank">
-											<i class="fab fa-linkedin"></i></a>
-											<a href="https://www.linkedin.com/in/abbasshafi/" target="blank">
-												<i class="" style="font-size: 11px;">03348701767</i></a>
-									</div>
-									
-								</div>
-
-								
-
-							</div>
-							
-							
-						</div>
-
-					</div>
-					
-				</section>
-			
-				
-
-
-				
 
 			</div><!-- end:colorlib-main -->
 		</div><!-- end:container-wrap -->
 	</div><!-- end:colorlib-page -->
 
-	
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
